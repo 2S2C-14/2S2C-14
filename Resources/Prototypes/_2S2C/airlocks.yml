@@ -12,6 +12,19 @@
       board: [ DoorElectronicsNanotrasenCommand ]
 
 - type: entity
+  parent: AirlockGlass
+  id: 2S2CGlassAirlockNanotrasenCommand
+  suffix: 2S2C, NanotrasenCommand, Locked, Glass
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/command.rsi
+  - type: Wires
+    layoutId: AirlockCommand
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenCommand ]
+
+- type: entity
   parent: DoorElectronics
   id: DoorElectronicsNanotrasenCommand
   suffix: 2S2C, NanotrasenCommand, Locked
@@ -26,6 +39,19 @@
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
+  - type: Wires
+    layoutId: AirlockCommand
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSyndicateCommand ]
+
+- type: entity
+  parent: AirlockGlass
+  id: 2S2CGlassAirlockSyndicateCommand
+  suffix: 2S2C, SyndicateCommand, Locked, Glass
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/syndicate.rsi
   - type: Wires
     layoutId: AirlockCommand
   - type: ContainerFill
@@ -55,6 +81,19 @@
       board: [ DoorElectronicsNanotrasenCrew ]
 
 - type: entity
+  parent: AirlockGlass
+  id: 2S2CGlassAirlockNanotrasenCrew
+  suffix: 2S2C, NanotrasenCrew, Locked, Glass
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/command.rsi
+  - type: Wires
+    layoutId: AirlockScience
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenCrew ]
+
+- type: entity
   parent: DoorElectronics
   id: DoorElectronicsNanotrasenCrew
   suffix: 2S2C, NanotrasenCrew, Locked
@@ -69,6 +108,19 @@
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
+  - type: Wires
+    layoutId: AirlockScience
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSyndicateCrew ]
+
+- type: entity
+  parent: AirlockGlass
+  id: 2S2CGlassAirlockSyndicateCrew
+  suffix: 2S2C, SyndicateCrew, Locked, Glass
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/syndicate.rsi
   - type: Wires
     layoutId: AirlockScience
   - type: ContainerFill
@@ -98,6 +150,19 @@
       board: [ DoorElectronicsNanotrasenSupplier ]
 
 - type: entity
+  parent: AirlockGlass
+  id: 2S2CGlassAirlockNanotrasenSupplier
+  suffix: 2S2C, NanotrasenSupplier, Locked, Glass
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/command.rsi
+  - type: Wires
+    layoutId: AirlockCargo
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenSupplier ]
+
+- type: entity
   parent: DoorElectronics
   id: DoorElectronicsNanotrasenSupplier
   suffix: 2S2C, NanotrasenSupplier, Locked
@@ -112,6 +177,19 @@
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
+  - type: Wires
+    layoutId: AirlockCargo
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSyndicateSupplier ]
+
+- type: entity
+  parent: AirlockGlass
+  id: 2S2CGlassAirlockSyndicateSupplier
+  suffix: 2S2C, SyndicateSupplier, Locked, Glass
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/syndicate.rsi
   - type: Wires
     layoutId: AirlockCargo
   - type: ContainerFill
@@ -141,6 +219,19 @@
       board: [ DoorElectronicsNanotrasenOperative ]
 
 - type: entity
+  parent: AirlockGlass
+  id: 2S2CGlassAirlockNanotrasenOperative
+  suffix: 2S2C, NanotrasenOperative, Locked, Glass
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/command.rsi
+  - type: Wires
+    layoutId: AirlockSecurity
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenOperative ]
+
+- type: entity
   parent: DoorElectronics
   id: DoorElectronicsNanotrasenOperative
   suffix: 2S2C, NanotrasenOperative, Locked
@@ -155,6 +246,19 @@
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
+  - type: Wires
+    layoutId: AirlockSecurity
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSyndicateOperative ]
+
+- type: entity
+  parent: AirlockGlass
+  id: 2S2CGlassAirlockSyndicateOperative
+  suffix: 2S2C, SyndicateOperative, Locked, Glass
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/syndicate.rsi
   - type: Wires
     layoutId: AirlockSecurity
   - type: ContainerFill
@@ -184,6 +288,19 @@
       board: [ DoorElectronicsNanotrasenTechnician ]
 
 - type: entity
+  parent: AirlockGlass
+  id: 2S2CGlassAirlockNanotrasenTechnician
+  suffix: 2S2C, NanotrasenTechnician, Locked, Glass
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/command.rsi
+  - type: Wires
+    layoutId: AirlockEngineering
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenTechnician ]
+
+- type: entity
   parent: DoorElectronics
   id: DoorElectronicsNanotrasenTechnician
   suffix: 2S2C, NanotrasenTechnician, Locked
@@ -198,6 +315,19 @@
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
+  - type: Wires
+    layoutId: AirlockEngineering
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSyndicateTechnician ]
+
+- type: entity
+  parent: AirlockGlass
+  id: 2S2CGlassAirlockSyndicateTechnician
+  suffix: 2S2C, SyndicateTechnician, Locked, Glass
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/syndicate.rsi
   - type: Wires
     layoutId: AirlockEngineering
   - type: ContainerFill
@@ -227,6 +357,19 @@
       board: [ DoorElectronicsNanotrasenService ]
 
 - type: entity
+  parent: AirlockGlass
+  id: 2S2CGlassAirlockNanotrasenService
+  suffix: 2S2C, NanotrasenService, Locked, Glass
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/command.rsi
+  - type: Wires
+    layoutId: AirlockService
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenService ]
+
+- type: entity
   parent: DoorElectronics
   id: DoorElectronicsNanotrasenService
   suffix: 2S2C, NanotrasenService, Locked
@@ -242,6 +385,19 @@
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
+  - type: Wires
+    layoutId: AirlockService
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSyndicateService ]
+
+- type: entity
+  parent: AirlockGlass
+  id: 2S2CGlassAirlockSyndicateService
+  suffix: 2S2C, SyndicateService, Locked, Glass
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/syndicate.rsi
   - type: Wires
     layoutId: AirlockService
   - type: ContainerFill
